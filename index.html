@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Railway/Bus Reservation Queue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header>
+        <h1>Railway / Bus Reservation</h1>
+        <p>Queue Simulator</p>
+    </header>
+
+
+
+    <div class="transport">
+
+        <label>Select Transport:</label>
+
+        <select>
+            <option>Railway</option>
+            <option>Bus</option>
+        </select>
+
+    </div>
+
+
+
+    <div class="container">
+
+
+        <div class="box">
+
+            <h2>Add Passenger</h2>
+
+            <p>Enter passenger details to join the queue.</p>
+
+            <a href="add-passenger.html">
+                <button>Add Passenger Details</button>
+            </a>
+
+            <p class="status">Queue Status: Active</p>
+
+        </div>
+
+
+
+        <div class="box">
+
+            <h2>Waiting Passengers</h2>
+
+            <div class="passenger">
+                <span>1</span>
+                <p>Rahul</p>
+                <b>FRONT</b>
+            </div>
+
+            <div class="passenger">
+                <span>2</span>
+                <p>Priya</p>
+            </div>
+
+            <div class="passenger">
+                <span>3</span>
+                <p>Aman</p>
+            </div>
+
+            <div class="passenger">
+                <span>4</span>
+                <p>Neha</p>
+                <b>REAR</b>
+            </div>
+
+            <p class="count">Total Passengers: 4</p>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="operations">
+
+        <h2>Queue Operations</h2>
+
+        <button>Process Reservation</button>
+
+        <button>Show Next Passenger</button>
+
+        <button>Display Queue</button>
+
+    </div>
+
+
+
+    <div class="next">
+
+        <h2>Next Passenger</h2>
+
+        <h3>Rahul</h3>
+
+        <p>This passenger will be served first.</p>
+
+    </div>
+
+
+
+    <div class="info">
+
+        <div class="info-box">
+            <h3>Front</h3>
+            <p>Rahul</p>
+        </div>
+
+        <div class="info-box">
+            <h3>Queue Size</h3>
+            <p>4 Passengers</p>
+        </div>
+
+        <div class="info-box">
+            <h3>Rear</h3>
+            <p>Neha</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

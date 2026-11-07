@@ -1,0 +1,139 @@
+body {
+  font-family: Arial;
+  background-color: #f2f5f9;
+  margin: 0;
+}
+header {
+  background-color: #1e3a5f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+header h1 {
+  margin: 0;
+}
+header p {
+  margin: 8px;
+}
+.transport {
+  background-color: white;
+  width: 85%;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+.transport label {
+  font-weight: bold;
+}
+select {
+  padding: 8px;
+}
+.container {
+  width: 85%;
+  margin: 20px auto;
+}
+.box {
+  background-color: white;
+  width: 42%;
+  min-height: 220px;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #ccc;
+}
+.box h2 {
+  color: #1e3a5f;
+}
+input {
+  width: 90%;
+  padding: 10px;
+  margin-top: 8px;
+}
+button {
+  background-color: #1e3a5f;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #142b46;
+}
+.status {
+  background-color: #dff0d8;
+  color: green;
+  padding: 8px;
+  text-align: center;
+}
+.passenger {
+  background-color: #eef3f8;
+  padding: 10px;
+  margin: 8px;
+}
+.passenger span {
+  background-color: #1e3a5f;
+  color: white;
+  padding: 7px;
+  margin-right: 10px;
+}
+.passenger p {
+  display: inline;
+}
+.passenger b {
+  float: right;
+  color: #1e3a5f;
+}
+.count {
+  font-weight: bold;
+}
+.operations {
+  background-color: white;
+  width: 85%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.operations h2 {
+  color: #1e3a5f;
+  margin-top: 0;
+}
+.operations button {
+  margin-right: 10px;
+}
+.next {
+  background-color: white;
+  width: 85%;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.next h2 {
+  color: #1e3a5f;
+  margin-top: 0;
+}
+.next h3 {
+  font-size: 24px;
+  color: #333;
+}
+.next p {
+  color: #555;
+}
+.info {
+  width: 87%;
+  margin: 20px auto;
+  text-align: center;
+}
+.info-box {
+  background-color: white;
+  width: 25%;
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+.info-box h3 {
+  color: #1e3a5f;
+}
